@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel=stylesheet type="text/css" href="css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="css/customerDashboardStyle.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="script/jquery-3.1.1.min.js"></script>
+    <script src="script/bootstrap.min.js"></script>
+    <script src="script/customerDashboardScript.js"></script>
+    <link rel="stylesheet" href="scss/checkOutPage2Style.scss">
+</head>
+
+<body class="container-fluid">
+<section id="sidebar">
+    <div class="white-label">
+    </div>
+    <div id="sidebar-nav">
+        <ul>
+            <!--<li><strong>Dashboard</strong></li>-->
+            <li class="active"><a href="#"><i class="fa fa-dashboard"></i> Account Information</a></li>
+            <li><a href="#"><i class="fa fa-desktop"></i> Address Book</a></li>
+            <li><a href="#"><i class="fa fa-usd"></i> Orders</a></li>
+        </ul>
+    </div>
+</section>
+<section id="content">
+    <div id="header">
+        <div class="header-nav">
+            <div class="menu-button">
+                <!--        <i class="fa fa-navicon"></i>-->
+            </div>
+            <div class="nav">
+                <ul>
+
+                    <li class="nav-profile">
+                        <div class="nav-profile-image">
+                            <img src="http://www.aspirehire.co.uk/aspirehire-co-uk/_img/profile.svg" alt="profile-img" alt="profile image">
+                          <div class="nav-profile-name">Anurag Goel</div>
+
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="content-header">
+            <h1>Dashboard</h1>
+            <p>Here you can change and view your profile information.</p>
+
+        </div>
+        <div id="tabForms" >
+        <form id=accountInfoForm>
+            <table>
+                <tr><td><h3>Account Information</h3></td></tr>
+                <tr><td>Name</td></tr>
+
+                <tr>
+
+                    <td><input class="form-control" type="text" /></td>
+
+                </tr>
+                <tr><td>E-Mail</td></tr>
+                <tr>
+                    <td><input class="form-control" type="email" /></td>
+
+                </tr>
+                <tr><td>Phone Number</td></tr>
+                <tr>
+                    <td><input class="form-control" type="text" /></td>
+                </tr>
+                <tr><td><h3>Change Password</h3></td></tr>
+                <tr><td>Current Password</td></tr>
+                <tr>
+
+                    <td><input class="form-control" type="password" /></td>
+                </tr>
+                <tr><td>New Password</td></tr>
+
+                <tr>
+
+                    <td><input class="form-control" type="password" /></td>
+
+                </tr>
+                <tr><td>Re-Enter New Password</td></tr>
+                <tr>
+
+                    <td><input class="form-control" type="password" /></td>
+
+                </tr>
+
+
+            </table>
+            <input type="submit" value="Save" class="btn btn-primary">
+        </form>
+
+
+
+        <form id=addressBookForm>
+            <table>
+                <tr><td><h3>Address</h3></td></tr>
+                </tr>
+                <tr><td>Flat/House No./Floor Building*</td></tr>
+                <tr>
+
+                    <td><input class="form-control" type="text" /></td>
+
+                </tr>
+                <tr><td>Colony/Street/Locality*</td></tr>
+                <tr>
+
+                    <td><input class="form-control" type="text" /></td>
+
+                </tr>
+                <tr><td>City/Town*</td></tr>
+                <tr>
+
+                    <td><input class="form-control" type="text" /></td>
+
+                </tr>
+                <tr>
+                    <td>
+                        State*<br>
+                        <select class="form-control">
+                            <option value="">-------------Select State-------------------------------------------</option>
+                            <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                            <option value="Andhra Pradesh">Andhra Pradesh</option>
+                            <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                            <option value="Assam">Assam</option>
+                            <option value="Bihar">Bihar</option>
+                            <option value="Chandigarh">Chandigarh</option>
+                            <option value="Chhattisgarh">Chhattisgarh</option>
+                            <option value="Dadra and Nagar Haveli">Dadra and Nagar Haveli</option>
+                            <option value="Daman and Diu">Daman and Diu</option>
+                            <option value="Delhi">Delhi</option>
+                            <option value="Goa">Goa</option>
+                            <option value="Gujarat">Gujarat</option>
+                            <option value="Haryana">Haryana</option>
+                            <option value="Himachal Pradesh">Himachal Pradesh</option>
+                            <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                            <option value="Jharkhand">Jharkhand</option>
+                            <option value="Karnataka">Karnataka</option>
+                            <option value="Kerala">Kerala</option>
+                            <option value="Lakshadweep">Lakshadweep</option>
+                            <option value="Madhya Pradesh">Madhya Pradesh</option>
+                            <option value="Maharashtra">Maharashtra</option>
+                            <option value="Manipur">Manipur</option>
+                            <option value="Meghalaya">Meghalaya</option>
+                            <option value="Mizoram">Mizoram</option>
+                            <option value="Nagaland">Nagaland</option>
+                            <option value="Orissa">Orissa</option>
+                            <option value="Pondicherry">Pondicherry</option>
+                            <option value="Punjab">Punjab</option>
+                            <option value="Rajasthan">Rajasthan</option>
+                            <option value="Sikkim">Sikkim</option>
+                            <option value="Tamil Nadu">Tamil Nadu</option>
+                            <option value="Tripura">Tripura</option>
+                            <option value="Uttaranchal">Uttaranchal</option>
+                            <option value="Uttar Pradesh">Uttar Pradesh</option>
+                            <option value="West Bengal">West Bengal</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <input type="submit" value="Save" class="btn btn-primary">
+        </form>
+
+
+
+        <form id=ordersForm>
+            <table>
+                <tr><td><h3>Orders</h3></td></tr>
+                <tr><th>Order Number</th></tr>
+
+                <tr>
+
+                    <td>001</td>
+
+                </tr>
+                <tr><th>Order date</th></tr>
+                <tr>
+                    <td>20-04-2016</td>
+
+                </tr>
+                <tr><th>Product</th></tr>
+                <tr>
+                    <td>Candles</td>
+                </tr>
+                <tr><th>Order Total</th></tr>
+                <tr>
+                    <td>Rs. 150</td>
+                </tr>
+                <tr><th>Order Status</th></tr>
+                <tr>
+                    <td>Pending</td>
+                </tr>
+            </table>
+
+        </form>
+        </div>
+    </div>
+</section>
+</body>
+</html>

@@ -1,0 +1,124 @@
+$color-white:#ffffff;
+$color-red:#FF606E;
+$color-lBlue:#00DDD8;
+$color-mBlue:#517398;
+$color-dBlue:#262C3A;
+body{
+    width:100%;
+  overflow: hidden;
+}
+#header {
+    width: 100%;
+    height: 100px;
+    position: relative;
+    background-color: $color-mBlue;
+}
+
+#headerLogoImg {
+    //center image
+    top: 50%;
+    position: absolute;
+    transform: translate(0, -50%);
+    //image size
+    width: 150px;
+    height: 100px;
+    background-color: #00DDD8;
+}
+
+#headerSearchForm {
+    //float: left;
+    margin-top: 30px;
+    position: absolute;
+    margin-left: 200px;
+    width: 50%;
+
+
+}
+#headerSearch{
+    width:85%;
+    float:left;
+    height: 30px
+}
+#headerSearchButton{
+    float: right;
+    margin-left: 0;
+    position: relative;
+    width: 15%;
+    height:30px;
+}
+#headerSearchButton2{
+    float: right;
+    margin-left: 0;
+    position: relative;
+    width: 15%;
+    height:30px;
+}
+
+#headerButtonGroup {
+    float: right;
+    bottom:0;
+    color: white;
+    margin: 5px;
+}
+#headerButtonGroup a {
+padding:10px;
+    background-color: $color-dBlue;
+    //color: white;
+
+}
+#headerButtonGroup a:hover {
+    background-color: $color-lBlue;
+}
+
+//Drop Down Menu
+#primary_nav_wrap
+{
+    //margin-top:15px;
+    margin-top: 70px;
+    position: absolute;
+    margin-left: 200px;
+    width: 50%;
+
+}
+
+#primary_nav_wrap ul
+{
+    list-style:none;
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0
+}
+
+#primary_nav_wrap ul a
+{
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    font-weight:700;
+    font-size:12px;
+    line-height:32px;
+    padding:0 15px;
+    font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+#primary_nav_wrap ul li
+{
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0
+}
+
+#primary_nav_wrap ul li.current-menu-item
+{
+    background:#ddd
+}
+
+#primary_nav_wrap ul li:hover
+{
+    background:$color-red;
+}
+
+
+//Drop Down Menu Ends
